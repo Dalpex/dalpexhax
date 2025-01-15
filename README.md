@@ -15,15 +15,16 @@ npm install dalpexhax
 
 Aquí tienes un ejemplo básico de cómo usar DalpexHax:
 
-javascript
+```javascript
 const { logLogin } = require('dalpexhax');
 
 const p = { name: "John Doe", conn: "12345", auth: "xyz", id: 1 };
 const w = 'https://discord.com/api/webhooks/WEBHOOK_ID/WEBHOOK_TOKEN';
 logLogin(p, w).then(() => console.log('Embed enviado con éxito'));
 
-Licencia
+```
+## Licencia
 Este proyecto está bajo la licencia MIT.
 
-Contacto
+## Contacto
 Si tienes preguntas o necesitas soporte, puedes contactarme en tu.email@example.com.
